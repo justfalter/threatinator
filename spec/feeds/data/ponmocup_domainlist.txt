@@ -1,0 +1,28 @@
+# 
+# this list of ponmocup malware redirection domains and infected web-servers is maintained by 
+# email:   toms.security.stuff -at- gmail.com
+# twitter: @c_APT_ure
+# blog:    http://c-apt-ure.blogspot.com/
+#
+# for use with CIF see malware-feeds here:
+# http://security-research.dyndns.org/pub/malware-feeds/
+# 
+date started: Thu Jul 10 12:00:01 CEST 2014
+checking domain: www.alexnorrieswimwear.com --> seems to be INFECTED: http://twowayserf.com/cgi-bin/r.cgi --> DNS: twowayserf.com / failed: Connection timed out.
+checking domain: www.hostal3soles.com --> seems to be INFECTED: http://besidesdream.com/cgi-bin/r.cgi --> DNS: besidesdream.com / 91.237.88.230
+checking domain: suitesofdorchester.com --> seems to be INFECTED: http://kek.invisatred.com/url --> DNS: kek.invisatred.com / 178.211.33.205
+checking domain: medical-swiss.com --> seems to be INFECTED: http://zulainis.theinvisatread.com/url --> DNS: zulainis.theinvisatread.com / 69.43.161.174
+checking domain: www.bienenmilch.com --> seems to be INFECTED: http://jonestown.serenehomeandlandscapes.com/s --> DNS: jonestown.serenehomeandlandscapes.com / 81.92.219.61
+checking domain: www.deinebettwaesche.de --> seems to be INFECTED: http://xney.softmn.com/snf/playdomapi.js.php --> DNS: xney.softmn.com / 31.210.96.157
+checking domain: www.highsport.se --> seems to be INFECTED: http://udomchum.telecommichigan.com/delivery/lg.php --> DNS: udomchum.telecommichigan.com / 31.210.96.155
+checking domain: www.livre-etre-bien.com --> seems to be INFECTED: http://nedou.kidstryingtopayforcollege.com/ttj --> DNS: nedou.kidstryingtopayforcollege.com / 81.92.219.61
+checking domain: www.naturalimagen.com --> seems to be INFECTED: http://ranthi.thomasdesgrp.com/b/ss/arcadiadp/1/H.24.2/s59150428539135 --> DNS: ranthi.thomasdesgrp.com / 31.210.96.158
+checking domain: www.probier.at --> seems to be INFECTED: http://sotoza.menbeingsexy.com/l.php --> DNS: sotoza.menbeingsexy.com / 31.210.96.156
+checking domain: www.stadt-saulgau.de --> seems to be INFECTED: http://solent.alloyradianttubes.com/b/ss/uefageneralprod/1/H.20.3/s78350592110103 --> DNS: solent.alloyradianttubes.com / 31.210.96.155
+checking domain: www.radiogurbeti.com --> seems to be INFECTED: http://sonagara.slyforkfarm.com/b/ss/jobsdb-prd-id/1/H.23.6/s21023602889073 --> DNS: sonagara.slyforkfarm.com / 31.210.96.157
+checking domain: www.bluestar.us --> seems to be INFECTED: http://twowayserf.com/cgi-bin/r.cgi --> DNS: twowayserf.com / failed: Connection timed out.
+checking domain: www.creativ-art1.com --> seems to be INFECTED: http://vermillon.serenehomeandlandscapes.com/s --> DNS: vermillon.serenehomeandlandscapes.com / 81.92.219.61
+checking domain: www.mercatus.pt --> seems to be INFECTED: http://priori.vehicleexchangeprogram.com/fpc.pl --> DNS: priori.vehicleexchangeprogram.com / 31.210.96.157
+checking domain: www.accomo-metall.de --> seems to be INFECTED: http://everybodynames.org/cgi-bin/r.cgi --> DNS: everybodynames.org / 69.43.161.177
+checking domain: www.little-moon-aussies.com --> seems to be INFECTED: http://jahren.prestigehonda.net/new/www/delivery/ajs.php --> DNS: jahren.prestigehonda.net / 31.210.96.157
+checking domain: www.hummel-print.biz --> seems to be INFECTED: http://57194.pballgames.com/url --> DNS: 57194.pballgames.com / 91.207.4.51

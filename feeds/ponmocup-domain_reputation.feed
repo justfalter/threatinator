@@ -1,0 +1,24 @@
+provider "security-research"
+name "ponmocup_domain_reputation"
+fetch_http('http://security-research.dyndns.org/pub/botnet/ponmocup/ponmocup-finder/ponmocup-infected-domains-latest.txt')
+
+feed_re = /^checking domain: (?<domain1>[a-z,A-Z,0-9,\.,\-]*) .*INFECTED\: http\:\/\/(?<domain2>[a-z,A-Z,0-9,\.,\-]*)/
+
+filter_whitespace
+filter_comments
+
+# Filter out //comments
+filter do |record|
+  (record.data =~ /^date /)
+  end
+
+parse_eachline(:separator => "\n") do |event_generator, record|
+  m = feed_re.match(record.data)
+  next if m.nil?
+
+  event_generator.call() do |event|
+    event.type = :c2
+    event.add_fqdn(m[:domain1])
+    event.add_fqdn(m[:domain2])
+  end
+end
