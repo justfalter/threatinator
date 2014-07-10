@@ -1,0 +1,39 @@
+# Disclaimer - You may not use this list without acceptance of the below:
+#
+# The following IP addresses have been detected performing TCP SYN to 206.82.85.196/30 to a non-listening service or daemon.
+# No assertion is made, nor implied, that any of the below listed IP addresses are accurate, malicious, hostile, or engaged in nefarious acts.
+# Use this list at your own risk.  By using this list in any capacity or capability you release all claims of damages and shall not hold or perceive any
+# liablity against the publisher for:  damage, unexpected events or results, decision, or reputation damage, even those resulting from willful
+# or intentional neglect.
+#
+# No claims made against this data shall be honored; no assertions have been made about the quality, accuracy, useability, actionability,
+# reputation, merit, or hostility of the below findings.
+#
+# If you feel that an IP address is inaccurately listed below please contact me at any RFC822 6.3, RFC1123 5.2.7, or RFC2821 4.5.1
+# address associated with this domain; the below findings are soley fed by TCP SYN which is trivial to forge/spoof; no SYN-ACK/ACK 
+# validation has been performed on the below IPv4 addresses, however, the honeypot does SYN-ACK..
+#
+# This list may not be included in any 'for-sale' component and may not be included in pay-wall subscription-based services except
+# for organizations that I have explicitly given permission to by E-Mail which has been GPG signed using Key ID 0x37085D70.
+#
+# Changelog:
+#     Fri Jan 10 2014 - A significant bug in Honeypot generation accuracy was found on Fri Jan 10 15:02 CST, prior entries in this list should be discarded.
+#     Fri Jan 24 2014 - Added cumulative honeypot hit count of an IP seen across all days.  This will take effect for existing IPs forward-going.
+#     Tue Jan 28 2014 - Corrected issue with cumulative hit count incrementing properly if the IP previously had a cumulative value.
+#     Tue Feb 18 2014 - Sigh, failed to correctly shard the Mongo collection the first time.  Dumped the collection and resharded, this list was purged on Feb 18 2014.
+#     Tue Feb 27 2014 - This list is now 48 hours (172800 seconds) of rolling data.
+#     Fri Jun 20 2014 - Oops, sorry about the lack of updates since Jun 16 2014, the collection expanded nearly ten fold in number of IPs due to additional feeds and I needed to update the query timeout values.
+#     Sat Jun 21 2014 - Time for some necessary indexes -- db.findings.createIndex({ 'packetmail_honeypot' : 1 }, { 'background' : 1 }); db.findings.createIndex({ 'packetmail_honeypot.last_seen' : 1 }, { 'background' : 1 });
+#
+# This list was last updated on Thu Jul 10 08:00:03 2014
+#
+# IP; last_seen; context, cumulative history
+188.176.247.10; 2014-07-09 00:03:14; Honeypot hits in 3600 hash-collection seconds: 2; Cumulative honeypot hits for IP over all days: 4
+31.6.71.135; 2014-07-09 00:03:15; Honeypot hits in 3600 hash-collection seconds: 3; Cumulative honeypot hits for IP over all days: 55
+54.76.255.98; 2014-07-09 00:03:15; Honeypot hits in 3600 hash-collection seconds: 2; Cumulative honeypot hits for IP over all days: 2
+92.222.20.85; 2014-07-09 00:03:15; Honeypot hits in 3600 hash-collection seconds: 9; Cumulative honeypot hits for IP over all days: 217
+1.93.34.226; 2014-07-09 00:03:15; Honeypot hits in 3600 hash-collection seconds: 9; Cumulative honeypot hits for IP over all days: 174
+116.10.191.165; 2014-07-09 00:03:15; Honeypot hits in 3600 hash-collection seconds: 3; Cumulative honeypot hits for IP over all days: 27
+117.41.186.155; 2014-07-09 00:03:15; Honeypot hits in 3600 hash-collection seconds: 3; Cumulative honeypot hits for IP over all days: 7
+46.246.94.239; 2014-07-09 00:03:15; Honeypot hits in 3600 hash-collection seconds: 3; Cumulative honeypot hits for IP over all days: 7
+94.102.53.197; 2014-07-09 00:03:15; Honeypot hits in 3600 hash-collection seconds: 3; Cumulative honeypot hits for IP over all days: 7
