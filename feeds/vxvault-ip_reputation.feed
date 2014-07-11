@@ -1,0 +1,44 @@
+provider "vxvault"
+name "ip_reputation"
+fetch_http('http://vxvault.siri-urz.net/URL_List.php')
+
+feed_re = /(?<ip>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})/
+
+filter_whitespace
+filter_comments
+
+# Filter out domains
+filter do |record|
+  (record.data =~ /\/\/[a-z,A-Z]/)
+  end
+  
+# Filter out domains
+filter do |record|
+  (record.data =~ /\.[a-z,A-Z]{2,4}\//)
+  end
+  
+# Filter out some comments
+filter do |record|
+  (record.data =~ /^\<pre\>/)
+  end
+  
+# Filter out some comments
+filter do |record|
+  (record.data =~ /VX Vault last 100 Links/)
+  end
+  
+# Filter out some comments
+filter do |record|
+  (record.data =~ /,/)
+  end
+
+parse_eachline(:separator => "\n") do |event_generator, record|
+  m = feed_re.match(record.data)
+  next if m.nil?
+
+  event_generator.call() do |event|
+    event.type = :malware_host
+    event.add_ipv4(m[:ip]) do |ipv4_event|
+    end
+  end
+end
