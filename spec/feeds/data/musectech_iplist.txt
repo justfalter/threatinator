@@ -1,0 +1,25 @@
+***
+* Auto-Generated Shared Signature File: OMENS Web Server
+* Last Generated: 1405339200
+***
+Sig:auto_prepend_file:Eindbazen PHP-CGI advisory (CVE-2012-1823):Shr=Y:Wgt=1
+Sig:allow_url_include:Eindbazen PHP-CGI advisory (CVE-2012-1823):Shr=Y:Wgt=1
+VTI:202.53.8.82:Suspect IP - Positive Match in VirusTotal:Shr=Y:Wgt=1
+Sig:403:Not Authorized - Could indicate hostile intent:Fld=RetCD:Shr=Y:Wgt=1
+Sig:%%22:Possible URL encoded SQL injection attempt:Fld=All:Shr=Y:Wgt=1
+Sig:':Possible SQL injection attempt:Fld=All:Shr=Y:Wgt=1
+Sig:%%27:Possible URL encoded SQL injection attempt:Fld=All:Shr=Y:Wgt=1
+Sig:zmeu:ZMEU is a known penetration tool:Fld=All:Shr=Y:Wgt=1
+VTI:196.203.83.3:Suspect IP - Positive Match in VirusTotal:Shr=Y:Wgt=1
+Sig:/includes/:Possible Uploaded WebShell:Fld=All:Shr=Y:Wgt=1
+VTI:91.208.16.3:Suspect IP - Positive Match in VirusTotal:Shr=Y:Wgt=1
+Sig:/upload.php:Possible Uploaded WebShell:Fld=All:Shr=Y:Wgt=1
+Sig:500:Internal Error - Could indicate hostile intent:Fld=RetCD:Shr=Y:Wgt=1
+VTI:80.82.64.42:Suspect IP - Positive Match in VirusTotal:Shr=Y:Wgt=1
+VTI:80.82.78.112:Suspect IP - Positive Match in VirusTotal:Shr=Y:Wgt=1
+VTI:94.102.49.168:Suspect IP - Positive Match in VirusTotal:Shr=Y:Wgt=1
+Sig:/shell.php:Possible Uploaded WebShell:Fld=All:Shr=Y:Wgt=1
+Sig:/Shell.php:Possible Uploaded WebShell:Fld=All:Shr=Y:Wgt=1
+Sig:/Shell.Php:Possible Uploaded WebShell:Fld=All:Shr=Y:Wgt=1
+VTI:195.225.105.196:Suspect IP - Positive Match in VirusTotal:Shr=Y:Wgt=4
+VTI:27.254.67.164:Suspect IP - Positive Match in VirusTotal:Shr=Y:Wgt=1
